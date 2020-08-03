@@ -10,20 +10,21 @@
 
 <a name="desc"></a>
 ## Project Overview
-In this module, we've learned building Webpages with JavaScript through creating, populating, and dynamically filtering
+In this module, we've learned building a WebPage with JavaScript through creating, populating, and dynamically filtering a table. Before getting started, We used a storyboard to design how we want our WebPage to look like. Then, we imported the data, which is stored in a JSON like array into a code book to build HTML table. Throughout this module, we've learned to apply traditional and arrow functions and JavaScript for loops to build dynamic tables. Finally, we built the HTML to customize the WebPage with Bootstrap components and CSS.  
 
 <a name="resc"></a>
 ## Resources
-- Data Source: [climate_analysis.ipynb](https://github.com/chrissycho/surfs_up/blob/master/climate_analysis.ipynb), [hawaii.sqlite](https://github.com/chrissycho/surfs_up/blob/master/hawaii.sqlite)
-- Software: Flask, Jupyter Notebook, Python, SQLite
+- Data Source: [data.js](https://github.com/chrissycho/UFOs/blob/master/data.js), [app.js](), [index.html]()
+- Software:  HTML, JavaScript, Jupyter Notebook, Python,
 
 <a name="obj"></a>
 ## Objectives
-- Explain the structures, interactions, and types of data of a provided dataset.
-- Differentiate between SQLite and PostgreSQL databases.
-- Use SQLAlchemy to connect to and query a SQLite database.
-- Use statistics like minimum, maximum, and average to analyze data.
-- Design a Flask application using data.
+- Explain the strengths and weaknesses of JavaScript “standard” and JavaScript version ES6+. 
+- Describe JavaScript syntax and ideal use cases. 
+- Build and deploy JavaScript functions, including built-in functions. 
+- Convert JavaScript functions to arrow functions. 
+- Build and deploy forEach (JavaScript for loop). 
+- Create, populate, and dynamically filter a table using JavaScript and HTML.
 
 <a name="sum"></a>
 ## Summary
