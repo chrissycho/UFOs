@@ -24,3 +24,20 @@ function buildTable(data) {
     );
 });
 }
+
+function handleClick() {
+    // lookf or #datetime id in HTML and grab that value & store it as "date"
+    let date = d3.select("#datetime").property("value");
+    // setting a default filter - without a date entered the original data will be returned 
+    let filteredData = tableData;
+    // Check for a date
+    if (date) {
+        filteredData = filteredData.filter(row => row.datetime === date);
+    };
+    buildTable(filteredData);
+}
+// Attach an event to listen for the form button Q: do we have "click" under filter-btn tag?
+d3.selectAll("#filter-btn").on("click", handleClick);
+
+// Build the table when the page loads
+buildTable(tableData); 
