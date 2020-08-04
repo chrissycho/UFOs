@@ -14,8 +14,8 @@ In this module, we've learned building a WebPage with JavaScript through creatin
 
 <a name="resc"></a>
 ## Resources
-- Data Source: [data.js](https://github.com/chrissycho/UFOs/blob/master/data.js), [app.js](), [index.html]()
-- Software:  HTML, JavaScript, Jupyter Notebook, Python,
+- Data Source: [data.js](https://github.com/chrissycho/UFOs/blob/master/data.js), [app.js](https://github.com/chrissycho/UFOs/blob/master/static/js/app.js), [index.html](https://github.com/chrissycho/UFOs/blob/master/index.html), [style.css](https://github.com/chrissycho/UFOs/blob/master/static/css/style.css)
+- Software: CSS, HTML, JavaScript, Jupyter Notebook
 
 <a name="obj"></a>
 ## Objectives
@@ -28,7 +28,7 @@ In this module, we've learned building a WebPage with JavaScript through creatin
 
 <a name="sum"></a>
 ## Summary
-We have learned Python to SQLite database using SQLAlchemy. We've also performed exploratory climate analysis on precipitation data from August 23, 2016 to August 23, 2017. We have plotted precipitation data by date to investigate whether there are certain days that have more rain than other days. We also have used weather data for various stations to capture minimum, maximum, and average temperature of the area. The station with the highest weather recordings was examined further on the frequency of temperatures. For visualizations, we've used a histogram for the frequency of certian temperature information.
+We've completed ...
 
 <a name="chal"></a>
 ## Challenge Overview
