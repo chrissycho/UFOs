@@ -26,7 +26,7 @@ function buildTable(data) {
 }
 
 function handleClick() {
-    // lookf or #datetime id in HTML and grab that value & store it as "date"
+    // look for #datetime id in HTML and grab that value & store it as "date"
     let date = d3.select("#datetime").property("value");
     // setting a default filter - without a date entered the original data will be returned 
     let filteredData = tableData;
