@@ -7,6 +7,7 @@
 [ 5. Challenge Overview ](#chal)<br /> 
 [ 6. Challenge Summary ](#chalsum)<br /> 
 [ 7. Final Outlook ](#find)<br />
+[ 8. Issues and Solution ](#iss)<br />
 
 <a name="desc"></a>
 ## Project Overview
@@ -44,4 +45,16 @@ In this challenge, you will be finding a few key aspects of Oahu’s seasonal we
 For the challenge, we now added more filters by date, city, state, country, and shape of UFO sighting information in the States. 
 
 <a name="find"></a>
-### Final Outlook
+## Final Outlook
+![](images/outlook.png)
+This is what it looks like before filtering the data. 
+
+![](images/filter_result.png)
+This is after we filter by date and state. It returned a row of the table data with a date of 1/1/2010 and the state as "or."
+
+<a name="iss"></a>
+## Issues and Solution
+Throughout the challenge, I faced several difficulties. First, I defined 5 filtering varibles using d3.select().property(). However, I realized this way won't be efficient if we are making 100+ filters in our page. Therefore, I learned "this" method of D3 library would work if it's listening for an event. What I didn't realize is that I still kept the command for JavaScript to listen to a button click instead of listening to the event itself. The very first command inside a function called updateFilters() for listening to an event was listening to a button click. Thus, the filters object wasn't saving the key-value pair of the user input. To fix this solution, the TA and I inspected the console and sources of the web page, making breakpoints of each line of the function (see below). 
+![](images/issue.png)
+
+There, we both realized that the D3 was listening to the button itself. On the JavaScript script, we changed the parameter of .selectAll() from "#filter-btn" to "input" which indicates the text box in our html code. We also changed the parameter for .on from "click" to "change." This way we would filter the table data accordingly to user inputs without a button. 
